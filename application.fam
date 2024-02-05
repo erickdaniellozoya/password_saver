@@ -1,0 +1,18 @@
+App(
+    appid="password_saver_app",
+    name="Password Saver",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="main_password_saver_app",
+    stack_size=4 * 1024,
+    requires=[
+        "gui",
+    ],
+    order=10,
+    fap_icon="password_saver.png",
+    fap_category="Tools",
+    fap_icon_assets="assets",
+    fap_description="This is a app to generate and save any type passwords safely.",
+    fap_version="0.1",
+    fap_author="Erick Lozoya",
+    fap_weburl="",
+)
